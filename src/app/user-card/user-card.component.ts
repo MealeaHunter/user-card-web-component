@@ -13,8 +13,6 @@ export class UserCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.mockDataService.get().subscribe((data: any) => {
-      console.log(data)
-
       this.users = data['results'];
     });
   }
