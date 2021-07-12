@@ -4,6 +4,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { UserCardComponent } from './user-card/user-card.component';
 import { createCustomElement } from '@angular/elements';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -11,6 +12,7 @@ import { createCustomElement } from '@angular/elements';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     HttpClientModule
   ],
   providers: [],
