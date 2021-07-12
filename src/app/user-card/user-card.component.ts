@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MockDataService } from '../mock-data.service';
+import { faEllipsisV } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-user-card',
@@ -8,6 +9,7 @@ import { MockDataService } from '../mock-data.service';
 })
 export class UserCardComponent implements OnInit {
   users: any;
+  ellipsis = faEllipsisV;
 
   constructor(private mockDataService: MockDataService) { }
 
