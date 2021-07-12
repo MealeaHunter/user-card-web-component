@@ -9,6 +9,6 @@ export class MockDataService {
   constructor(private httpClient: HttpClient) { }
 
   get() {
-    return this.httpClient.get('https://randomuser.me/api/?results=12')
+    return this.httpClient.get('https://randomuser.me/api/?results=12&nat=us')
   }
 }
