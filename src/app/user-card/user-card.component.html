@@ -7,6 +7,8 @@
                 <div style="font-size: 20px;">{{user.name.first}} {{user.name.last}}</div>
                 <div>{{user.login.username}}</div>
             </span>
+
+            <fa-icon [icon]='ellipsis' (click)="onDelete(user)"></fa-icon>
         </div>
     
         <div class="card-body">

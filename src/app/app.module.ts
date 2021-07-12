@@ -8,11 +8,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
-    FontAwesomeModule,
     UserCardComponent
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     HttpClientModule
   ],
   providers: [],
