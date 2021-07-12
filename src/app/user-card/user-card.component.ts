@@ -23,5 +23,4 @@ export class UserCardComponent implements OnInit {
     const index = this.users.indexOf(user);
     this.users.splice(index, 1)
   }
-
 }
